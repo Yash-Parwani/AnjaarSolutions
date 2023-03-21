@@ -35,7 +35,7 @@ const CompanyDetails = () => {
 
   // implementing deletion logic
   // first check if user is authorized to delete
-  const isCurrentUser = user.email === companyDetails.creator.email;
+  const isCurrentUser = user.email === companyDetails.emailOfEnterer;
 
   const handleDeleteCompany = () => {
     // eslint-disable-next-line no-restricted-globals
